@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ViewtableComponent } from './viewtable/viewtable.component';
+import { ViewtodosComponent } from './viewtodos/viewtodos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ViewtableComponent
+    ViewtableComponent,
+    ViewtodosComponent
   ],
   imports: [
     BrowserModule,
